@@ -1,4 +1,4 @@
-import { Cliente } from "./Cliente";
+import { Cliente } from "./src/Cliente";
 
 
 function criarCliente(nome: string, telefone: string): Cliente {
