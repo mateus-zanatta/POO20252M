@@ -1,8 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 import { Conta } from "./Conta";
 
-
-
 describe("Quando depositar", () => {
     it("Deve aumentar o saldo da conta", () => {
         // Cenário
