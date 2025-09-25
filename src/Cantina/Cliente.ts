@@ -15,7 +15,11 @@ export class Cliente {
             throw new Error("Telefone Inválido")
         }
     }
-
+    /**
+     * Método que valida um telefone
+     * @param telefone Telefone a ser validado
+     * @returns true se o telefone é válido e false se não for
+     */
     validarTelefone(telefone: string): boolean {
         return telefone.length === 11;
     }
